@@ -159,7 +159,7 @@ while capture.isOpened():
                     frame_text="Id:"+str(aux)+";"+"Size:"+size+";"+"Color:"+color+";"+"Minute:"+moment
                 y = int(M['m01'] / M['m00'])
                 if aux != aux2:
-                    print("Total de naranjas", aux)
+                    #print("Total de naranjas", aux)
                     aux2 = aux
                 # cv2.circle(frame, (x, y), 7, (0, 255, 0), -1)
                 # font = cv2.FONT_HERSHEY_SIMPLEX
